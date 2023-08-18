@@ -1,0 +1,3 @@
+[submodule "ROS2_ws/src/Hiwin_libmodbus"]
+	path = ROS2_ws/src/Hiwin_libmodbus
+	url = https://github.com/tku-iarc/Hiwin_libmodbus.git
