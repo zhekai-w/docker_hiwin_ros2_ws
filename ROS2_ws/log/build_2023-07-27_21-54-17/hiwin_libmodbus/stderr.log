@@ -1,0 +1,34 @@
+[0mLibmodbus path dir = /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus[0m
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-data.c:25:10:[m[K [01;31m[Kfatal error: [m[Kconfig.h: No such file or directory
+   25 | #include [01;31m[K<config.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_libmodbus.dir/build.make:90: CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-data.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c:21:10:[m[K [01;31m[Kfatal error: [m[Kconfig.h: No such file or directory
+   21 | #include [01;31m[K<config.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:15[m[K:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-private.h:20:10:[m[K [01;31m[Kfatal error: [m[Kconfig.h: No such file or directory
+   20 | #include [01;31m[K<config.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_libmodbus.dir/build.make:132: CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c.o] Error 1
+gmake[2]: *** [CMakeFiles/hiwin_libmodbus.dir/build.make:104: CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c.o] Error 1
+In file included from [01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:59[m[K:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-private.h:20:10:[m[K [01;31m[Kfatal error: [m[Kconfig.h: No such file or directory
+   20 | #include [01;31m[K<config.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_libmodbus.dir/build.make:118: CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c.o] Error 1
+In file included from [01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_libmodbus/include/hiwin_libmodbus/hiwin_libmodbus.hpp:16[m[K,
+                 from [01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwin_libmodbus.cpp:2[m[K:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.h:22:10:[m[K [01;31m[Kfatal error: [m[Kmodbus-version.h: No such file or directory
+   22 | #include [01;31m[K"modbus-version.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_libmodbus.dir/build.make:76: CMakeFiles/hiwin_libmodbus.dir/src/hiwin_libmodbus.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/hiwin_libmodbus.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

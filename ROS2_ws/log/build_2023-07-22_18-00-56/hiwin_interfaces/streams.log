@@ -1,0 +1,174 @@
+[0.018s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_interfaces
+[0.192s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.208s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.279s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.650s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.939s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.079s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.079s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.103s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.117s] -- Added test 'lint_cmake' to check CMake code style
+[1.117s] -- Added test 'xmllint' to check XML markup files
+[1.120s] -- Configuring done
+[1.146s] -- Generating done
+[1.150s] -- Build files have been written to: /home/zack/work/ROS2_ws/build/hiwin_interfaces
+[1.154s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_interfaces
+[1.155s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_interfaces -- -j16 -l16
+[1.182s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_generator_c[0m
+[1.187s] [  2%] Built target hiwin_interfaces__cpp
+[1.189s] [ 12%] Built target hiwin_interfaces__rosidl_generator_c
+[1.192s] [ 12%] Built target ament_cmake_python_symlink_hiwin_interfaces
+[1.193s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_cpp[0m
+[1.193s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.194s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.195s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_introspection_c[0m
+[1.195s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.196s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_c[0m
+[1.202s] [ 56%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c
+[1.202s] [ 56%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.202s] [ 56%] Built target hiwin_interfaces__rosidl_typesupport_cpp
+[1.202s] [ 56%] Built target hiwin_interfaces__rosidl_typesupport_c
+[1.202s] [ 64%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp
+[1.203s] [ 74%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c
+[1.215s] [ 74%] Built target hiwin_interfaces
+[1.231s] [ 76%] Built target hiwin_interfaces__py
+[1.238s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_generator_py[0m
+[1.248s] [ 84%] Built target hiwin_interfaces__rosidl_generator_py
+[1.255s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_c__pyext[0m
+[1.255s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.255s] [35m[1mConsolidate compiler generated dependencies of target hiwin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.262s] [100%] Built target hiwin_interfaces__rosidl_typesupport_c__pyext
+[1.263s] [100%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.263s] [100%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.354s] running egg_info
+[1.354s] writing hiwin_interfaces.egg-info/PKG-INFO
+[1.354s] writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+[1.354s] writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+[1.355s] reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[1.355s] writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[1.375s] [100%] Built target ament_cmake_python_build_hiwin_interfaces_egg
+[1.382s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_interfaces -- -j16 -l16
+[1.450s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_interfaces
+[1.454s] -- Install configuration: ""
+[1.454s] -- Execute custom install script
+[1.454s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/ament_index/resource_index/rosidl_interfaces/hiwin_interfaces
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__functions.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__struct.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__functions.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__struct.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__type_support.h
+[1.455s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/hiwinmodbus.h
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/robot_command.h
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/library_path.sh
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/library_path.dsv
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_fastrtps_c.h
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__builder.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__struct.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__traits.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__builder.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__struct.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__traits.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/hiwinmodbus.hpp
+[1.456s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/robot_command.hpp
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_fastrtps_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_introspection_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/pythonpath.sh
+[1.457s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/pythonpath.dsv
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/__init__.py
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_c.c
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.458s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/libhiwin_interfaces__rosidl_generator_py.so
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/__init__.py
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_hiwinmodbus.py
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_hiwinmodbus_s.c
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_robot_command.py
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_robot_command_s.c
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus.idl
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand.idl
+[1.459s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus.srv
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus_Request.msg
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus_Response.msg
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand.srv
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand_Request.msg
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand_Response.msg
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/ament_index/resource_index/package_run_dependencies/hiwin_interfaces
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/ament_index/resource_index/parent_prefix_path/hiwin_interfaces
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/ament_prefix_path.sh
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/ament_prefix_path.dsv
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/path.sh
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/environment/path.dsv
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.bash
+[1.460s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.sh
+[1.461s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.zsh
+[1.461s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.dsv
+[1.461s] -- Symlinking: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/package.dsv
+[1.466s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/ament_index/resource_index/packages/hiwin_interfaces
+[1.466s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.466s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfacesConfig.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfacesConfig-version.cmake
+[1.467s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/package.xml
+[1.467s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_generator_c.so
+[1.467s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.467s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.468s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_introspection_c.so
+[1.468s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_c.so
+[1.468s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.468s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_cpp.so
+[1.489s] Listing '/home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces'...
+[1.489s] Compiling '/home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/__init__.py'...
+[1.489s] Listing '/home/zack/work/ROS2_ws/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv'...
+[1.491s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_generator_py.so
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cExport.cmake
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cppExport.cmake
+[1.492s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cppExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_pyExport.cmake
+[1.493s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.494s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_interfaces

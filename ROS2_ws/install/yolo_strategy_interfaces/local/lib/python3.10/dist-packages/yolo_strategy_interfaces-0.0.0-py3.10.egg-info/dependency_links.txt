@@ -1,0 +1,1 @@
+/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/ament_cmake_python/yolo_strategy_interfaces/yolo_strategy_interfaces.egg-info/dependency_links.txt

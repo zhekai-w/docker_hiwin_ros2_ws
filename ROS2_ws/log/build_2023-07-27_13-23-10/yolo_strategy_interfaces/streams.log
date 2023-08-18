@@ -1,0 +1,7 @@
+[0.012s] Invoking command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces
+[0.046s] [31mCMake Error at CMakeLists.txt:16:
+[0.046s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.046s] 
+[0.046s] [0m
+[0.046s] -- Configuring incomplete, errors occurred!
+[0.051s] Invoked command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces

@@ -1,0 +1,27 @@
+[0.515s] Invoking command in '/home/zack/work/ROS2_ws/build/py_pubsub': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data
+[0.720s] running develop
+[0.720s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.720s]   warnings.warn(
+[0.723s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.723s]   warnings.warn(
+[0.840s] running egg_info
+[0.840s] writing py_pubsub.egg-info/PKG-INFO
+[0.841s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.841s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.841s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.841s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.843s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.843s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.844s] running build_ext
+[0.844s] Creating /home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.845s] Installing cam_calibration script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing strategy_client script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing strategy_sub script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing test_yolo_service script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing verify_calibration script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing yolo_detect script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing yolo_service script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.846s] 
+[0.846s] Installed /home/zack/work/ROS2_ws/build/py_pubsub
+[0.846s] running install_data
+[0.873s] Invoked command in '/home/zack/work/ROS2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data

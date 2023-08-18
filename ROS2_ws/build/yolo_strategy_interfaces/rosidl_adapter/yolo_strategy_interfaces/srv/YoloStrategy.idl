@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from yolo_strategy_interfaces/srv/YoloStrategy.srv
+// generated code does not contain a copyright notice
+
+
+module yolo_strategy_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request ")
+    struct YoloStrategy_Request {
+      uint8 send_position;
+
+      sequence<double> update_position;
+    };
+    struct YoloStrategy_Response {
+      sequence<double> current_position;
+    };
+  };
+};

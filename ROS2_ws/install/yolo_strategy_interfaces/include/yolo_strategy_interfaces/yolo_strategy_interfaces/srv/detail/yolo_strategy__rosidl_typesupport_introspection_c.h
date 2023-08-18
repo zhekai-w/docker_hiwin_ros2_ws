@@ -1,0 +1,1 @@
+/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/rosidl_typesupport_introspection_c/yolo_strategy_interfaces/srv/detail/yolo_strategy__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,8 @@
+setup.py
+yolo_strategy_interfaces/__init__.py
+yolo_strategy_interfaces.egg-info/PKG-INFO
+yolo_strategy_interfaces.egg-info/SOURCES.txt
+yolo_strategy_interfaces.egg-info/dependency_links.txt
+yolo_strategy_interfaces.egg-info/top_level.txt
+yolo_strategy_interfaces/srv/__init__.py
+yolo_strategy_interfaces/srv/_yolo_strategy.py

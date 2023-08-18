@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_strategy_interfaces__rosidl_generator_c[0m
+failed to create symbolic link '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/ament_cmake_python/yolo_strategy_interfaces/yolo_strategy_interfaces' because existing path cannot be removed: Is a directory
+[  3%] Built target yolo_strategy_interfaces__cpp
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_yolo_strategy_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_yolo_strategy_interfaces] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_yolo_strategy_interfaces.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target yolo_strategy_interfaces__rosidl_generator_c
+gmake: *** [Makefile:146: all] Error 2

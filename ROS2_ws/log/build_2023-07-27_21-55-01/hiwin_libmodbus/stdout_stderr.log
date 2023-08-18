@@ -1,0 +1,118 @@
+[ 35%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus.dir/src/hiwin_libmodbus.cpp.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-data.c.o[0m
+[ 35%] Built target ament_cmake_python_symlink_hiwin_libmodbus
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_prepare_response_tid[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:154:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  154 | static int _modbus_tcp_prepare_response_tid(const uint8_t *req, [01;35m[Kint *req_length[m[K)
+      |                                                                 [01;35m[K~~~~~^~~~~~~~~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_check_integrity[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:189:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kctx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | static int _modbus_tcp_check_integrity([01;35m[Kmodbus_t *ctx[m[K, uint8_t *msg, const int msg_length)
+      |                                        [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:189:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | static int _modbus_tcp_check_integrity(modbus_t *ctx, [01;35m[Kuint8_t *msg[m[K, const int msg_length)
+      |                                                       [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_pre_check_confirmation[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:197:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krsp_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  197 |                                               [01;35m[Kint rsp_length[m[K)
+      |                                               [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[Kmodbus_tcp_accept[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:706:14:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kaccept4[m[K’; did you mean ‘[01m[Kaccept[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+  706 |     ctx->s = [01;35m[Kaccept4[m[K(*s, (struct sockaddr *) &addr, &addrlen, SOCK_CLOEXEC);
+      |              [01;35m[K^~~~~~~[m[K
+      |              [32m[Kaccept[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_select[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:762:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength_to_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  762 | _modbus_tcp_select(modbus_t *ctx, fd_set *rset, struct timeval *tv, [01;35m[Kint length_to_read[m[K)
+      |                                                                     [01;35m[K~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_prepare_response_tid[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:132:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  132 | static int _modbus_rtu_prepare_response_tid([01;35m[Kconst uint8_t *req[m[K, int *req_length)
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_pre_check_confirmation[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:328:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krsp_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |                                               [01;35m[Kint rsp_length[m[K)
+      |                                               [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_select[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:1133:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength_to_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1133 | _modbus_rtu_select(modbus_t *ctx, fd_set *rset, struct timeval *tv, [01;35m[Kint length_to_read[m[K)
+      |                                                                     [01;35m[K~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c:[m[K In function ‘[01m[K_modbus_receive_msg[m[K’:
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c:487:20:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  487 |                 if [01;35m[K([m[Klength_to_read != 0) {
+      |                    [01;35m[K^[m[K
+[01m[K/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus/src/modbus.c:491:13:[m[K [01;36m[Knote: [m[Khere
+  491 |             [01;36m[Kcase[m[K _STEP_META:
+      |             [01;36m[K^~~~[m[K
+running egg_info
+writing hiwin_libmodbus.egg-info/PKG-INFO
+writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[ 35%] Built target ament_cmake_python_build_hiwin_libmodbus_egg
+[ 42%] [32m[1mLinking CXX shared library libhiwin_libmodbus.so[0m
+[ 42%] Built target hiwin_libmodbus
+[35m[1mConsolidate compiler generated dependencies of target hiwin_libmodbus_node[0m
+[35m[1mConsolidate compiler generated dependencies of target hiwin_libmodbus_ctype_wrapper[0m
+[35m[1mConsolidate compiler generated dependencies of target hiwinlibmodbus_server[0m
+[35m[1mConsolidate compiler generated dependencies of target hiwinmodbus_server[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus_ctype_wrapper.dir/src/hiwin_libmodbus_ctype_wrapper.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus_node.dir/src/hiwin_libmodbus_node.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/hiwinmodbus_server.dir/src/hiwinmodbus_server.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/hiwinlibmodbus_server.dir/src/hiwinlibmodbus_server.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable hiwin_libmodbus_node[0m
+[ 78%] Built target hiwin_libmodbus_node
+[ 85%] [32m[1mLinking CXX shared library libhiwin_libmodbus_ctype_wrapper.so[0m
+[ 85%] Built target hiwin_libmodbus_ctype_wrapper
+[ 92%] [32m[1mLinking CXX executable hiwinmodbus_server[0m
+[100%] [32m[1mLinking CXX executable hiwinlibmodbus_server[0m
+[100%] Built target hiwinmodbus_server
+[100%] Built target hiwinlibmodbus_server
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/include/hiwin_libmodbus/hiwin_libmodbus.hpp
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/include/hiwin_libmodbus/visibility_control.h
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinmodbus_server
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinlibmodbus_server
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwin_libmodbus_node
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.sh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/Hiwin_API_test.py
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.sh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.dsv
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/package_run_dependencies/hiwin_libmodbus
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/parent_prefix_path/hiwin_libmodbus
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.sh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.dsv
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.bash
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.sh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.zsh
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.dsv
+-- Symlinking: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/package.dsv
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/packages/hiwin_libmodbus
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig.cmake
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig-version.cmake
+-- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/package.xml
+-- Installing: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/libhiwin_libmodbus.so
+-- Installing: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so
+-- Set runtime path of "/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so" to ""
+Listing '/home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus'...
+Compiling '/home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py'...
+Compiling '/home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py'...
+-- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport.cmake
+-- Installing: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport-release.cmake

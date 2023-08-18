@@ -1,0 +1,94 @@
+[0.007s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_libmodbus -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_libmodbus
+[0.015s] [0mLibmodbus path dir = /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/libmodbus[0m
+[0.016s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.117s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.119s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.209s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.211s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.236s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.346s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.410s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.452s] -- Found hiwin_interfaces: 0.0.0 (/home/zack/work/ROS2_ws/install/hiwin_interfaces/share/hiwin_interfaces/cmake)
+[0.572s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.622s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.622s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_libmodbus/include>
+[0.622s] -- Configured cppcheck exclude dirs and/or files: 
+[0.623s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.623s] -- Added test 'lint_cmake' to check CMake code style
+[0.623s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.623s] -- Added test 'uncrustify' to check C / C++ code style
+[0.623s] -- Configured uncrustify additional arguments: 
+[0.624s] -- Added test 'xmllint' to check XML markup files
+[0.626s] -- Configuring done
+[0.641s] -- Generating done
+[0.642s] -- Build files have been written to: /home/zack/work/ROS2_ws/build/hiwin_libmodbus
+[0.648s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_libmodbus -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_libmodbus
+[0.650s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_libmodbus -- -j16 -l16
+[0.678s] [35m[1mConsolidate compiler generated dependencies of target hiwin_libmodbus[0m
+[0.687s] [  0%] Built target ament_cmake_python_symlink_hiwin_libmodbus
+[0.687s] [ 42%] Built target hiwin_libmodbus
+[0.693s] [35m[1mConsolidate compiler generated dependencies of target hiwin_libmodbus_node[0m
+[0.694s] [35m[1mConsolidate compiler generated dependencies of target hiwin_libmodbus_ctype_wrapper[0m
+[0.694s] [35m[1mConsolidate compiler generated dependencies of target hiwinlibmodbus_server[0m
+[0.694s] [35m[1mConsolidate compiler generated dependencies of target hiwinmodbus_server[0m
+[0.701s] [ 71%] Built target hiwin_libmodbus_node
+[0.701s] [ 71%] Built target hiwin_libmodbus_ctype_wrapper
+[0.706s] [100%] Built target hiwinlibmodbus_server
+[0.706s] [100%] Built target hiwinmodbus_server
+[0.854s] running egg_info
+[0.854s] writing hiwin_libmodbus.egg-info/PKG-INFO
+[0.854s] writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+[0.854s] writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+[0.855s] reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[0.874s] [100%] Built target ament_cmake_python_build_hiwin_libmodbus_egg
+[0.883s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_libmodbus -- -j16 -l16
+[0.925s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_libmodbus
+[0.929s] -- Install configuration: "Release"
+[0.929s] -- Execute custom install script
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/include/hiwin_libmodbus/hiwin_libmodbus.hpp
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/include/hiwin_libmodbus/visibility_control.h
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinmodbus_server
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinlibmodbus_server
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwin_libmodbus_node
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.sh
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.dsv
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/PKG-INFO
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.930s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/top_level.txt
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/hiwin_libmodbus/Hiwin_API_test.py
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.sh
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.dsv
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/package_run_dependencies/hiwin_libmodbus
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/parent_prefix_path/hiwin_libmodbus
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.sh
+[0.931s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.dsv
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.sh
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.dsv
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.bash
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.sh
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.zsh
+[0.932s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.dsv
+[0.932s] -- Symlinking: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/package.dsv
+[0.937s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/ament_index/resource_index/packages/hiwin_libmodbus
+[0.937s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.938s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_libraries-extras.cmake
+[0.938s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_targets-extras.cmake
+[0.938s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig.cmake
+[0.938s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig-version.cmake
+[0.938s] -- Up-to-date symlink: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/package.xml
+[0.938s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/libhiwin_libmodbus.so
+[0.938s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so
+[0.959s] Listing '/home/zack/work/ROS2_ws/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus'...
+[0.961s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport.cmake
+[0.961s] -- Up-to-date: /home/zack/work/ROS2_ws/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport-release.cmake
+[0.966s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_libmodbus

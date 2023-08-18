@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libhiwin_libmodbus_ctype_wrapper.so -o libhiwin_libmodbus_ctype_wrapper.so CMakeFiles/hiwin_libmodbus_ctype_wrapper.dir/src/hiwin_libmodbus_ctype_wrapper.cpp.o  -Wl,-rpath,/home/zack/work/ROS2_ws/build/hiwin_libmodbus: libhiwin_libmodbus.so 

@@ -1,0 +1,6 @@
+Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_interfaces
+Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/hiwin_interfaces
+Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_interfaces -- -j16 -l16
+Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_interfaces -- -j16 -l16
+Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_interfaces
+Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/hiwin_interfaces

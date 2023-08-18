@@ -1,0 +1,23 @@
+[0.683s] Invoking command in '/home/zack/work/ROS2_ws/build/py_pubsub': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data
+[0.853s] running develop
+[0.853s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.853s]   warnings.warn(
+[0.854s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.854s]   warnings.warn(
+[0.960s] running egg_info
+[0.960s] writing py_pubsub.egg-info/PKG-INFO
+[0.960s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.960s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.960s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.960s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.962s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.963s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.964s] running build_ext
+[0.964s] Creating /home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.964s] Installing cam_calibration script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.965s] Installing strategy_sub script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.965s] Installing yolo_detect script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.965s] 
+[0.965s] Installed /home/zack/work/ROS2_ws/build/py_pubsub
+[0.965s] running install_data
+[1.002s] Invoked command in '/home/zack/work/ROS2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+manual_calibration = hiwin_example.pool_arm:main
+strategy_example = hiwin_example.strategy_example:main
+verify_calibration = hiwin_example.verify_calibration:main
+

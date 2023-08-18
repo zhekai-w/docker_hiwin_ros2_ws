@@ -1,0 +1,6 @@
+{
+  "package_name": "yolo_strategy_interfaces",
+  "non_idl_tuples": [
+    "/home/zack/work/ROS2_ws/src/yolo_strategy_interfaces:srv/YoloStrategy.srv"
+  ]
+}

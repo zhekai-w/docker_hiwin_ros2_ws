@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces
+[0.019s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.113s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.223s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.302s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.302s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.302s]   yolo_strategy_interfaces --arguments-file
+[0.302s]   /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/rosidl_adapter__arguments__yolo_strategy_interfaces.json
+[0.302s]   --output-dir
+[0.302s]   /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/rosidl_adapter/yolo_strategy_interfaces
+[0.302s]   --output-file
+[0.303s]   /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/rosidl_adapter/yolo_strategy_interfaces.idls)
+[0.303s]   returned error code 1:
+[0.303s] 
+[0.303s]   Error processing 'unit8 send_position' of
+[0.303s]   'yolo_strategy_interfaces/YoloStrategy_Request': ''unit8' is an invalid
+[0.303s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.303s] 
+[0.303s]   Traceback (most recent call last):
+[0.303s] 
+[0.303s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.303s]       return _run_code(code, main_globals, None,
+[0.303s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.303s]       exec(code, run_globals)
+[0.303s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.304s]       sys.exit(main())
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.304s]       abs_idl_file = convert_to_idl(
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.304s]       return convert_srv_to_idl(
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.304s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.304s]       request_message = parse_message_string(
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.304s]       Type(type_string, context_package_name=pkg_name),
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.304s]       super(Type, self).__init__(
+[0.304s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.304s]       raise InvalidResourceName(
+[0.304s] 
+[0.305s]   rosidl_adapter.parser.InvalidResourceName: 'unit8' is an invalid message
+[0.305s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.305s] 
+[0.305s] Call Stack (most recent call first):
+[0.305s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.305s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.305s] 
+[0.305s] [0m
+[0.305s] -- Configuring incomplete, errors occurred!
+[0.305s] See also "/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces/CMakeFiles/CMakeOutput.log".
+[0.307s] Invoked command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces

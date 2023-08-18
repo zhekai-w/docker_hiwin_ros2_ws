@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces:/home/zack/work/ROS2_ws/install/hiwin_service_client:/home/zack/work/ROS2_ws/install/hiwin_libmodbus:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble LD_LIBRARY_PATH=/home/zack/work/ROS2_ws/install/hiwin_interfaces/lib:/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib:/home/zack/work/ROS2_ws/install/hiwin_libmodbus/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/hiwin_libmodbus -- -j16 -l16
+[0.090s] [  7%] Built target ament_cmake_python_symlink_hiwin_libmodbus
+[0.091s] [ 42%] Built target hiwin_libmodbus
+[0.107s] [ 71%] Built target hiwin_libmodbus_node
+[0.107s] [ 71%] Built target hiwin_libmodbus_ctype_wrapper
+[0.123s] [100%] Built target hiwinlibmodbus_server
+[0.123s] [100%] Built target hiwinmodbus_server
+[0.264s] running egg_info
+[0.264s] writing hiwin_libmodbus.egg-info/PKG-INFO
+[0.265s] writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+[0.265s] writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+[0.266s] reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[0.267s] writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[0.289s] [100%] Built target ament_cmake_python_build_hiwin_libmodbus_egg

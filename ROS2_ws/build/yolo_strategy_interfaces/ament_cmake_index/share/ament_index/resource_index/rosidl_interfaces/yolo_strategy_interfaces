@@ -1,0 +1,4 @@
+srv/YoloStrategy.idl
+srv/YoloStrategy.srv
+srv/YoloStrategy_Request.msg
+srv/YoloStrategy_Response.msg

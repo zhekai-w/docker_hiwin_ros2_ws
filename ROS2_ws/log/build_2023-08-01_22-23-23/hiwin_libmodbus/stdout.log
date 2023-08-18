@@ -1,0 +1,13 @@
+[  7%] Built target ament_cmake_python_symlink_hiwin_libmodbus
+[ 42%] Built target hiwin_libmodbus
+[ 71%] Built target hiwin_libmodbus_node
+[ 71%] Built target hiwin_libmodbus_ctype_wrapper
+[100%] Built target hiwinlibmodbus_server
+[100%] Built target hiwinmodbus_server
+running egg_info
+writing hiwin_libmodbus.egg-info/PKG-INFO
+writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_hiwin_libmodbus_egg

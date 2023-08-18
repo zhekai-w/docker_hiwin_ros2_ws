@@ -1,0 +1,48 @@
+[0.457s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build
+[0.634s] running develop
+[0.634s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.634s]   warnings.warn(
+[0.635s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.635s]   warnings.warn(
+[0.750s] Removing /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin-example.egg-link (link to .)
+[0.776s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build
+[0.778s] Invoking command in '/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/zack/work/ROS2_ws/build/hiwin_example/build install --record /home/zack/work/ROS2_ws/build/hiwin_example/install.log --single-version-externally-managed
+[0.940s] running egg_info
+[0.940s] writing ../../../build/hiwin_example/hiwin_example.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../../build/hiwin_example/hiwin_example.egg-info/dependency_links.txt
+[0.941s] writing entry points to ../../../build/hiwin_example/hiwin_example.egg-info/entry_points.txt
+[0.941s] writing requirements to ../../../build/hiwin_example/hiwin_example.egg-info/requires.txt
+[0.941s] writing top-level names to ../../../build/hiwin_example/hiwin_example.egg-info/top_level.txt
+[0.942s] reading manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[0.942s] writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[0.942s] running build
+[0.943s] running build_py
+[0.943s] copying hiwin_example/verify_calibration.py -> /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[0.943s] running install
+[0.943s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.943s]   warnings.warn(
+[0.943s] running install_lib
+[0.944s] creating /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/output_clickpoint.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/YoloDetector.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/pool_arm.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/strategy_example.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/__init__.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/YoloDetector_class_node.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/verify_calibration.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[0.944s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/output_clickpoint.py to output_clickpoint.cpython-310.pyc
+[0.945s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector.py to YoloDetector.cpython-310.pyc
+[0.945s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/pool_arm.py to pool_arm.cpython-310.pyc
+[0.946s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/strategy_example.py to strategy_example.cpython-310.pyc
+[0.947s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/__init__.py to __init__.cpython-310.pyc
+[0.947s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector_class_node.py to YoloDetector_class_node.cpython-310.pyc
+[0.948s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/verify_calibration.py to verify_calibration.cpython-310.pyc
+[0.949s] running install_data
+[0.949s] running install_egg_info
+[0.950s] Copying ../../../build/hiwin_example/hiwin_example.egg-info to /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info
+[0.951s] running install_scripts
+[0.965s] Installing manual_calibration script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[0.965s] Installing strategy_example script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[0.965s] Installing verify_calibration script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[0.965s] writing list of installed files to '/home/zack/work/ROS2_ws/build/hiwin_example/install.log'
+[0.985s] Invoked command in '/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/zack/work/ROS2_ws/build/hiwin_example/build install --record /home/zack/work/ROS2_ws/build/hiwin_example/install.log --single-version-externally-managed

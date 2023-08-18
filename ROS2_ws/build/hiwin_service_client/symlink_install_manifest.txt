@@ -1,0 +1,15 @@
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/ament_index/resource_index/package_run_dependencies/hiwin_service_client
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/ament_index/resource_index/parent_prefix_path/hiwin_service_client
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/environment/ament_prefix_path.sh
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/environment/ament_prefix_path.dsv
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/environment/path.sh
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/environment/path.dsv
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/local_setup.bash
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/local_setup.sh
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/local_setup.zsh
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/local_setup.dsv
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/package.dsv
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/ament_index/resource_index/packages/hiwin_service_client
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/cmake/hiwin_service_clientConfig.cmake
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/cmake/hiwin_service_clientConfig-version.cmake
+/home/zack/work/ROS2_ws/install/hiwin_service_client/share/hiwin_service_client/package.xml

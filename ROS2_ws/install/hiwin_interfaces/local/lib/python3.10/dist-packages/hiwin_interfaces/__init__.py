@@ -1,0 +1,1 @@
+/home/zack/work/ROS2_ws/build/hiwin_interfaces/rosidl_generator_py/hiwin_interfaces/__init__.py

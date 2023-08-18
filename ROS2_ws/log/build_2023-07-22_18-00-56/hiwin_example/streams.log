@@ -1,0 +1,46 @@
+[0.619s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build
+[0.785s] running develop
+[0.785s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.785s]   warnings.warn(
+[0.786s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.786s]   warnings.warn(
+[0.892s] Removing /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin-example.egg-link (link to .)
+[0.921s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build
+[0.922s] Invoking command in '/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/zack/work/ROS2_ws/build/hiwin_example/build install --record /home/zack/work/ROS2_ws/build/hiwin_example/install.log --single-version-externally-managed
+[1.074s] running egg_info
+[1.075s] writing ../../../build/hiwin_example/hiwin_example.egg-info/PKG-INFO
+[1.075s] writing dependency_links to ../../../build/hiwin_example/hiwin_example.egg-info/dependency_links.txt
+[1.075s] writing entry points to ../../../build/hiwin_example/hiwin_example.egg-info/entry_points.txt
+[1.075s] writing requirements to ../../../build/hiwin_example/hiwin_example.egg-info/requires.txt
+[1.075s] writing top-level names to ../../../build/hiwin_example/hiwin_example.egg-info/top_level.txt
+[1.077s] reading manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[1.078s] writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[1.078s] running build
+[1.078s] running build_py
+[1.078s] creating /home/zack/work/ROS2_ws/build/hiwin_example/build
+[1.078s] creating /home/zack/work/ROS2_ws/build/hiwin_example/build/lib
+[1.078s] creating /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[1.078s] copying hiwin_example/YoloDetector.py -> /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[1.079s] copying hiwin_example/strategy_example.py -> /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[1.079s] copying hiwin_example/__init__.py -> /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[1.079s] copying hiwin_example/YoloDetector_class_node.py -> /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example
+[1.079s] running install
+[1.079s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.079s]   warnings.warn(
+[1.080s] running install_lib
+[1.080s] creating /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[1.080s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/YoloDetector.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[1.080s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/strategy_example.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[1.080s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/__init__.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[1.081s] copying /home/zack/work/ROS2_ws/build/hiwin_example/build/lib/hiwin_example/YoloDetector_class_node.py -> /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[1.081s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector.py to YoloDetector.cpython-310.pyc
+[1.081s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/strategy_example.py to strategy_example.cpython-310.pyc
+[1.081s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/__init__.py to __init__.cpython-310.pyc
+[1.081s] byte-compiling /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector_class_node.py to YoloDetector_class_node.cpython-310.pyc
+[1.082s] running install_data
+[1.082s] running install_egg_info
+[1.082s] Copying ../../../build/hiwin_example/hiwin_example.egg-info to /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info
+[1.082s] running install_scripts
+[1.095s] Installing strategy_example script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[1.095s] writing list of installed files to '/home/zack/work/ROS2_ws/build/hiwin_example/install.log'
+[1.138s] Invoked command in '/home/zack/work/ROS2_ws/src/Hiwin_libmodbus/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/zack/work/ROS2_ws/build/hiwin_example/build install --record /home/zack/work/ROS2_ws/build/hiwin_example/install.log --single-version-externally-managed

@@ -1,0 +1,558 @@
+[0.191s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'yolo_strategy_interfaces']
+[0.191s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['yolo_strategy_interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1f4b22cd60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1f4b3e29b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1f4b3e29b0>>)
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zack/work/ROS2_ws'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_example) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hiwin_libmodbus/hiwin_example' with type 'ros.ament_python' and name 'hiwin_example'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_interfaces) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hiwin_libmodbus/hiwin_interfaces' with type 'ros.ament_cmake' and name 'hiwin_interfaces'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_libmodbus) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hiwin_libmodbus/hiwin_libmodbus' with type 'ros.ament_cmake' and name 'hiwin_libmodbus'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/hiwin_service_client) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hiwin_libmodbus/hiwin_service_client' with type 'ros.ament_cmake' and name 'hiwin_service_client'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/autom4te.cache) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/build-aux) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/docs/assets) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/m4) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/src/win32) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hiwin_libmodbus/libmodbus/tests) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/Pictures) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/filter table pics) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/IDPoolBall/strategy) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/__pycache__) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/cfg_0720/weights) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/old_thing) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/ALL) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/cfg/weights/old_weeight) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/YOLO/pics) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_strategy_interfaces) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_strategy_interfaces' with type 'ros.ament_cmake' and name 'yolo_strategy_interfaces'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hiwin_example' in 'src/Hiwin_libmodbus/hiwin_example'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hiwin_interfaces' in 'src/Hiwin_libmodbus/hiwin_interfaces'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'src/py_pubsub'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hiwin_libmodbus' in 'src/Hiwin_libmodbus/hiwin_libmodbus'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hiwin_service_client' in 'src/Hiwin_libmodbus/hiwin_service_client'
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/zack/work/ROS2_ws/install
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 357 installed packages in /opt/ros/humble
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'yolo_strategy_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_strategy_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces', 'merge_install': False, 'path': '/home/zack/work/ROS2_ws/src/yolo_strategy_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.293s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zack/work/ROS2_ws/src/yolo_strategy_interfaces' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zack/work/ROS2_ws/src/yolo_strategy_interfaces'
+[0.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake /home/zack/work/ROS2_ws/src/yolo_strategy_interfaces -DCMAKE_INSTALL_PREFIX=/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces -- -j16 -l16
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --build /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces -- -j16 -l16
+[2.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces
+[2.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_strategy_interfaces)
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zack/work/ROS2_ws/build/yolo_strategy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zack/work/ROS2_ws/install/py_pubsub:/home/zack/work/ROS2_ws/install/hiwin_example:/opt/ros/humble /usr/bin/cmake --install /home/zack/work/ROS2_ws/build/yolo_strategy_interfaces
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces' for CMake module files
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces' for CMake config files
+[2.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_strategy_interfaces', 'cmake_prefix_path')
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.sh'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib'
+[2.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_strategy_interfaces', 'ld_library_path_lib')
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.ps1'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.dsv'
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.sh'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/bin'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib/pkgconfig/yolo_strategy_interfaces.pc'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib/python3.10/site-packages'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/bin'
+[2.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.ps1'
+[2.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.dsv'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.sh'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.bash'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.zsh'
+[2.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/colcon-core/packages/yolo_strategy_interfaces)
+[2.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_strategy_interfaces)
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces' for CMake module files
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces' for CMake config files
+[2.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_strategy_interfaces', 'cmake_prefix_path')
+[2.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.ps1'
+[2.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.dsv'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/cmake_prefix_path.sh'
+[2.610s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib'
+[2.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_strategy_interfaces', 'ld_library_path_lib')
+[2.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.ps1'
+[2.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.dsv'
+[2.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/hook/ld_library_path_lib.sh'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/bin'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib/pkgconfig/yolo_strategy_interfaces.pc'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/lib/python3.10/site-packages'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/bin'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.sh'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.bash'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/yolo_strategy_interfaces/package.zsh'
+[2.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zack/work/ROS2_ws/install/yolo_strategy_interfaces/share/colcon-core/packages/yolo_strategy_interfaces)
+[2.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.614s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.614s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.618s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.622s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.622s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zack/work/ROS2_ws/install/local_setup.ps1'
+[2.624s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zack/work/ROS2_ws/install/_local_setup_util_ps1.py'
+[2.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zack/work/ROS2_ws/install/setup.ps1'
+[2.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zack/work/ROS2_ws/install/local_setup.sh'
+[2.626s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zack/work/ROS2_ws/install/_local_setup_util_sh.py'
+[2.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zack/work/ROS2_ws/install/setup.sh'
+[2.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zack/work/ROS2_ws/install/local_setup.bash'
+[2.627s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zack/work/ROS2_ws/install/setup.bash'
+[2.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zack/work/ROS2_ws/install/local_setup.zsh'
+[2.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zack/work/ROS2_ws/install/setup.zsh'

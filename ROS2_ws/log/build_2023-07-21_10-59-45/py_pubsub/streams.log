@@ -1,0 +1,28 @@
+[0.695s] Invoking command in '/home/zack/work/ROS2_ws/build/py_pubsub': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data
+[0.869s] running develop
+[0.870s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.870s]   warnings.warn(
+[0.871s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.871s]   warnings.warn(
+[0.976s] running egg_info
+[0.976s] creating py_pubsub.egg-info
+[0.977s] writing py_pubsub.egg-info/PKG-INFO
+[0.977s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.977s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.977s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.977s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.977s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.978s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.978s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.979s] running build_ext
+[0.980s] Creating /home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.980s] Installing talker script to /home/zack/work/ROS2_ws/install/py_pubsub/lib/py_pubsub
+[0.981s] 
+[0.981s] Installed /home/zack/work/ROS2_ws/build/py_pubsub
+[0.981s] running install_data
+[0.981s] creating /home/zack/work/ROS2_ws/install/py_pubsub/share/ament_index
+[0.981s] creating /home/zack/work/ROS2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.981s] creating /home/zack/work/ROS2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.981s] copying resource/py_pubsub -> /home/zack/work/ROS2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.981s] copying package.xml -> /home/zack/work/ROS2_ws/install/py_pubsub/share/py_pubsub
+[1.027s] Invoked command in '/home/zack/work/ROS2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/py_pubsub/prefix_override:/home/zack/work/ROS2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/py_pubsub/build --no-deps install_data

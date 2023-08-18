@@ -1,0 +1,21 @@
+[0.645s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build --no-deps install_data
+[0.815s] running develop
+[0.815s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.815s]   warnings.warn(
+[0.816s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.817s]   warnings.warn(
+[0.927s] running egg_info
+[0.928s] writing hiwin_example.egg-info/PKG-INFO
+[0.930s] writing dependency_links to hiwin_example.egg-info/dependency_links.txt
+[0.930s] writing entry points to hiwin_example.egg-info/entry_points.txt
+[0.930s] writing requirements to hiwin_example.egg-info/requires.txt
+[0.930s] writing top-level names to hiwin_example.egg-info/top_level.txt
+[0.930s] reading manifest file 'hiwin_example.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'hiwin_example.egg-info/SOURCES.txt'
+[0.931s] running build_ext
+[0.931s] Creating /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin-example.egg-link (link to .)
+[0.931s] Installing strategy_example = hiwin_example.strategy_example:mainpool_arm script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[0.931s] 
+[0.931s] Installed /home/zack/work/ROS2_ws/build/hiwin_example
+[0.931s] running install_data
+[0.959s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build --no-deps install_data

@@ -1,0 +1,23 @@
+[0.723s] Invoking command in '/home/zack/work/ROS2_ws/build/hiwin_example': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build --no-deps install_data
+[0.898s] running develop
+[0.899s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.899s]   warnings.warn(
+[0.901s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.901s]   warnings.warn(
+[1.014s] running egg_info
+[1.015s] writing hiwin_example.egg-info/PKG-INFO
+[1.015s] writing dependency_links to hiwin_example.egg-info/dependency_links.txt
+[1.015s] writing entry points to hiwin_example.egg-info/entry_points.txt
+[1.015s] writing requirements to hiwin_example.egg-info/requires.txt
+[1.015s] writing top-level names to hiwin_example.egg-info/top_level.txt
+[1.019s] reading manifest file 'hiwin_example.egg-info/SOURCES.txt'
+[1.019s] writing manifest file 'hiwin_example.egg-info/SOURCES.txt'
+[1.019s] running build_ext
+[1.020s] Creating /home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages/hiwin-example.egg-link (link to .)
+[1.020s] Installing manual_calibration script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[1.021s] Installing strategy_example script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[1.021s] Installing verify_calibration script to /home/zack/work/ROS2_ws/install/hiwin_example/lib/hiwin_example
+[1.021s] 
+[1.021s] Installed /home/zack/work/ROS2_ws/build/hiwin_example
+[1.021s] running install_data
+[1.072s] Invoked command in '/home/zack/work/ROS2_ws/build/hiwin_example' returned '0': PYTHONPATH=/home/zack/work/ROS2_ws/build/hiwin_example/prefix_override:/home/zack/work/ROS2_ws/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zack/work/ROS2_ws/build/hiwin_example/build --no-deps install_data

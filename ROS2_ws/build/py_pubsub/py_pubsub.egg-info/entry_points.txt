@@ -1,0 +1,9 @@
+[console_scripts]
+cam_calibration = py_pubsub.cam_cali:main
+strategy_client = py_pubsub.strategy_client:main
+strategy_sub = py_pubsub.strategy_sub:main
+test_yolo_service = py_pubsub.test_yoloservice_client:main
+verify_calibration = py_pubsub.verify_calibration:main
+yolo_detect = py_pubsub.publisher_member_function:main
+yolo_service = py_pubsub.yolo_service:main
+
