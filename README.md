@@ -16,7 +16,7 @@ sudo chmod 666 /var/run/docker.sock
 ```
 ## building 
 ```bash
-clone docker repo with libmodbus submodule within Hiwin_libmodbus submodule to your pc
+# clone docker repo with libmodbus submodule within Hiwin_libmodbus submodule to your pc
 git clone --recurse-submodules https://github.com/zhekai-w/docker_hiwin_ros2_ws.git
 
 # go to the environment
