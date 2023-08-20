@@ -3,7 +3,7 @@ Docker environment for hiwin robotics arm control.
 Main fucntion is to use realsense to tell where the billard balls are and hit the ball accurately.
 
 ## Acknowledgment
-The Hiwin_libmodbus submodule package is from [Hiwin_libmodbus](https://github.com/tku-iarc/Hiwin_libmodbus.git).
+The Hiwin_libmodbus submodule package is from [Hiwin_libmodbus](https://github.com/tku-iarc/Hiwin_libmodbus.git).\
 The libumodbus submodule package is from [libmodus](https://github.com/stephane/libmodbus.git).
 
 ## Requirements
