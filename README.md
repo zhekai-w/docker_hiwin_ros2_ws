@@ -13,8 +13,8 @@ sudo chmod 666 /var/run/docker.sock
 
 ## building 
 ```bash
-# go to the environmet
-.../docker
+# go to your workspace/src
+cd ~<your_workspace>/src
 
 # build docker image
 ./build.sh
