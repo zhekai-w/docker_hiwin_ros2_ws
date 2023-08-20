@@ -13,8 +13,11 @@ sudo chmod 666 /var/run/docker.sock
 
 ## building 
 ```bash
-# go to your workspace/src
-cd ~<your_workspace>/src
+clone docker repo to your pc
+git clone https://github.com/zhekai-w/docker_hiwin_ros2_ws.git
+
+# go to the environment
+cd .../docker
 
 # build docker image
 ./build.sh
